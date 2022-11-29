@@ -27,4 +27,7 @@ export class PorPaisComponent implements OnInit {
       }
     );
   }
+  sugerencias(event: string) {
+    this.hayError = false;
+  }
 }
